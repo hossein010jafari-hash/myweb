@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+            background: white;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: left;
+            padding: 20px;
+        }
+        
+        .header a {
+            margin-left: 15px;
+            text-decoration: none;
+            color: #5f6368;
+        }
+        
+        .logo {
+            margin: 100px 0 30px 0;
+            font-size: 80px;
+            font-weight: bold;
+        }
+        
+        .blue { color: #4285f4; }
+        .red { color: #ea4335; }
+        .yellow { color: #fbbc05; }
+        .green { color: #34a853; }
+        
+        .search-box {
+            width: 600px;
+            max-width: 90%;
+            margin: 0 auto 30px auto;
+            padding: 15px;
+            border: 1px solid #dfe1e5;
+            border-radius: 24px;
+            font-size: 16px;
+        }
+        
+        .search-box:hover {
+            box-shadow: 0 1px 6px rgba(32,33,36,.28);
+        }
+        
+        .buttons {
+            margin: 20px 0;
+        }
+        
+        .btn {
+            background: #f8f9fa;
+            border: 1px solid #f8f9fa;
+            border-radius: 4px;
+            color: #3c4043;
+            padding: 10px 20px;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+        
+        .btn:hover {
+            border: 1px solid #dadce0;
+        }
+        
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #f2f2f2;
+            padding: 15px;
+            color: #5f6368;
+        }
+    </style>
+</head>
+<body>
+    <!-- هدر -->
+    <div class="header">
+        <a href="#">Gmail</a>
+        <a href="#">Images</a>
+    </div>
+    
+    <!-- لوگو -->
+    <div class="logo">
+        <span class="blue">G</span>
+        <span class="red">o</span>
+        <span class="yellow">o</span>
+        <span class="blue">g</span>
+        <span class="green">l</span>
+        <span class="red">e</span>
+    </div>
+    
+    <!-- جعبه جستجو -->
+    <div class="search-box">
+        جستجو در Google یا تایپ یک URL
+    </div>
+    
+    <!-- دکمه‌ها -->
+    <div class="buttons">
+        <button class="btn">جستجوی Google</button>
+        <button class="btn">شانسی باشم</button>
+    </div>
+    
+    <!-- فوتر -->
+    <div class="footer">
+        ایران
+    </div>
+</body>
+</html>
